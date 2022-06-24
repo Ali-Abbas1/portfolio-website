@@ -5,6 +5,9 @@ import CreativeDesigner from "./components/CreativeDesigner";
 import AboutMe from "./components/AboutMe";
 import Ornament from "./components/Ornament";
 import Services from "./components/Services";
+import Contributors from "./components/Contributors";
+import RegularPortfolio from "./components/RegularPortfolio";
+import Contact from "./components/Contact";
 function App() {
   return (
     <>
@@ -13,6 +16,9 @@ function App() {
       <AboutMe />
       <Ornament />
       <Services />
+      <Contributors />
+      <RegularPortfolio />
+      <Contact />
     </>
   );
 }

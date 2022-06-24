@@ -21,13 +21,16 @@ const Ornament = () => {
         <div className="mx-auto flex text-center items-center">
           <img
             src={model}
-            className="text-center mx-auto absolute top-40 z-10 left-0 right-0 height h-[1003px] w-[576px]"
+            className="text-center sm:w-[35%] sm:top-[8rem] md:w-[39%] md:top-[10rem] mx-auto absolute top-40 z-10 left-0 right-0 height lg:w-[576px] lg:h-[626px]  xl:h-[1003px] xl:w-[576px]"
           />
           <div>
-            <img src={vector} className="absolute top-[400px]" />
+            <img
+              src={vector}
+              className="sm:top-[255px] md:top-[270px] absolute lg:top-[300px] xl:top-[400px]"
+            />
           </div>
-          <div className="absolute top-[-100px] bottom-0 left-0 right-0 w-full h-full">
-            <img src={bg} className="" />
+          <div className="absolute lg:top-[-40px] xl:top-[-100px] bottom-0 left-0 right-0 w-full h-full">
+            <img src={bg} />
           </div>
         </div>
       </div>
